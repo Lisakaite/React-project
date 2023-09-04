@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Add styles for the menu */
+.right-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  /* Display menu items in a horizontal line */
+}
+
+.right-menu li {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.right-menu li:last-child {
+  margin-right: 0;
+  /* Remove margin from the last menu item */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.banner {
+  background-image: url('cbk.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.banner h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* src/App.css */
+
+/* ... previous CSS rules ... */
+
+.cookbook {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.cookbook h3 {
+  font-size: 24px;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Three columns of equal width */
+  gap: 20px;
+  /* Spacing between items */
+}
+
+.recipe {
+  text-align: center;
+}
+
+.recipe img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.recipe h4 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  position: bottom;
+  bottom: 0;
+  width: 100%;
+}
